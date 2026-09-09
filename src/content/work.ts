@@ -47,7 +47,7 @@ export const WORK = {
       featured: false,
       description:
         "Real-time EV motorcycle fleet tracking mobile application prototype (SiHemat) built for PT LEN Industri (Persero), featuring live GPS telemetry, route replay, safety monitoring, and corporate fleet compliance.",
-      role: "Frontend & Mobile Programmer Intern — developed the Flutter mobile application prototype and interactive showcase web mockup.",
+      role: "Software Engineer & Mobile Intern — developed the Flutter mobile application prototype and interactive showcase web mockup.",
       stack: [
         "Flutter",
         "Dart",
@@ -71,7 +71,7 @@ export const WORK = {
       featured: false,
       description:
         "Web application development project for academic coursework at UIN Sunan Gunung Djati Bandung, implementing modern component design and structured layout.",
-      role: "Frontend developer — building modular UI components, page layouts, and interactive user flows.",
+      role: "Software Engineer — building modular UI components, page layouts, and interactive user flows.",
       stack: [
         "Next.js",
         "React",

@@ -4,14 +4,14 @@ import type { HeroContent } from "./types";
 
 export const HERO = {
   id: "hero",
-  eyebrow: "Software Developer · Frontend & Full Stack · AI Engineer · Data Scientist",
+  eyebrow: "Software Engineer · Full Stack · AI Engineer · Data Scientist",
   headlineLead: "Hi, I'm Nirwan",
   // Separate from headlineLead so it can sit in its own span — animated by
   // CSS, hidden from screen readers.
   wave: "👋",
   headlineClaim: "I build intuitive web & mobile apps.",
   subhead:
-    "Software Developer with strong frontend specialization and full stack experience. Building modern web with React & Next.js, mobile apps with Flutter, and backend APIs with Nest.js. Leveraging AI-assisted development to ship clean, production-ready solutions.",
+    "Software Engineer with strong full stack and mobile capabilities. Building modern web with React & Next.js, mobile apps with Flutter, and backend APIs with Nest.js. Leveraging AI-assisted development to ship clean, production-ready solutions.",
   primary: { label: "Get in touch", href: "#contact" },
   secondary: { label: "See my work", href: "#work" },
   location: "Bandung, Indonesia · WIB (UTC+7)",
@@ -25,7 +25,7 @@ export const HERO = {
   terminal: {
     title: "nirwan@dev",
     lines: [
-      { kind: "prompt", text: "find a frontend software dev" },
+      { kind: "prompt", text: "find a software engineer" },
       { kind: "result", text: "Found 1 match: Nirwan Rasyid" },
       { kind: "branch", text: "React · Next.js · Flutter" },
       { kind: "branch", text: "Nest.js · PostgreSQL · MySQL" },

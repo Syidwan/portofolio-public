@@ -41,14 +41,14 @@ export const EXPERIENCE = {
     {
       id: "len",
       company: "PT LEN Industri (Persero)",
-      position: "Frontend Programmer Intern",
+      position: "Software Engineer Intern",
       logo: LOGOS.len,
       startISO: "2025-09",
       endISO: "2025-12",
       bullets: [
-        "Completed a 4-month internship placed within the Portfolio Optimization division, focused on designing and building frontend prototypes.",
+        "Completed a 4-month internship placed within the Portfolio Optimization division, focused on designing and building software and mobile prototypes.",
         "Designed and developed an analytics dashboard prototype for monitoring and visualizing company assets.",
-        "Built the frontend prototype for an electric motorcycle tracking and monitoring mobile application.",
+        "Built the prototype for an electric motorcycle tracking and monitoring mobile application using Flutter.",
         "Collaborated with cross-functional teams to translate monitoring requirements into functional, user-friendly interfaces.",
       ],
     },

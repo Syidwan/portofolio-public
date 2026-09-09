@@ -3,8 +3,8 @@ import type { FooterContent } from "./types";
 export const FOOTER = {
   landmarkLabel: "Site footer",
   brand: {
-    wordmark: "portofolio-public",
-    tagline: "Software Developer · AI Engineer · Data Scientist.",
+    wordmark: "nirwan_rasyid",
+    tagline: "Software Engineer · AI Engineer · Data Scientist.",
     location: "Bandung, Indonesia · WIB (UTC+7)",
   },
   columns: [

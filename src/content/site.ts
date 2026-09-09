@@ -1,21 +1,20 @@
 import type { SiteContent } from "./types";
 
 export const SITE = {
-  wordmark: "portofolio-public",
+  wordmark: "nirwan_rasyid",
   name: "Nirwan Rasyid Ridlo",
   // Rendered verbatim into the OG image and JSON-LD. Keep it short or the OG
   // line wraps.
-  jobTitle: "Software Developer · AI Engineer · Data Scientist",
-  url: "https://portofolio-public.vercel.app",
+  jobTitle: "Software Engineer · AI Engineer · Data Scientist",
+  url: "https://nirwanrasyidridlo.vercel.app",
   title:
-    "Nirwan Rasyid Ridlo — Software Developer · AI Engineer · Data Scientist in Bandung, Indonesia",
+    "Nirwan Rasyid Ridlo — Software Engineer · AI Engineer · Data Scientist in Bandung, Indonesia",
   titleTemplate: "%s | Nirwan Rasyid Ridlo",
   description:
-    "Software Developer, AI Engineer, and Data Scientist based in Bandung, Indonesia. Skilled in React, Next.js, Flutter, Nest.js, Python, and AI-assisted workflows.",
+    "Software Engineer, AI Engineer, and Data Scientist based in Bandung, Indonesia. Skilled in React, Next.js, Flutter, Nest.js, Python, and AI-assisted workflows.",
   keywords: [
     "Nirwan Rasyid Ridlo",
-    "Software Developer",
-    "Frontend Developer",
+    "Software Engineer",
     "Full Stack Developer",
     "AI Engineer",
     "Data Scientist",
@@ -25,13 +24,13 @@ export const SITE = {
     "Web Developer Bandung",
     "AI Assisted Developer",
   ],
-  ogTitle: "Nirwan Rasyid Ridlo — Software Developer",
+  ogTitle: "Nirwan Rasyid Ridlo — Software Engineer",
   ogDescription:
-    "Frontend & Software Developer based in Bandung, Indonesia. Specializing in responsive web, mobile applications, and AI-assisted development.",
-  ogImageAlt: "Nirwan Rasyid Ridlo, software developer — portofolio-public",
-  twitterTitle: "Nirwan Rasyid Ridlo — Software Developer",
+    "Software Engineer based in Bandung, Indonesia. Specializing in responsive web, mobile applications, and AI-assisted development.",
+  ogImageAlt: "Nirwan Rasyid Ridlo, software engineer — nirwan_rasyid",
+  twitterTitle: "Nirwan Rasyid Ridlo — Software Engineer",
   twitterDescription:
-    "Frontend & Software Developer (React, Next.js, Flutter & AI tools) in Bandung, Indonesia.",
+    "Software Engineer (React, Next.js, Flutter & AI tools) in Bandung, Indonesia.",
   twitterHandle: "@nirwanrasyid",
   locale: "id_ID",
   themeColor: "white",

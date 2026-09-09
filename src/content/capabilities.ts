@@ -9,13 +9,13 @@ export const CAPABILITIES = {
     eyebrow: "Services",
     heading: "What I bring to the table.",
     subhead:
-      "Frontend engineering, full stack development, or cross-platform mobile applications.",
+      "Software engineering, full stack development, or cross-platform mobile applications.",
   },
   items: [
     {
       id: "frontend",
       icon: "layers",
-      title: "Modern Frontend Engineering",
+      title: "Modern Software Engineering",
       body: "Responsive, performant, and accessible interfaces built with React, Next.js, and Tailwind CSS. From analytics dashboards to interactive web apps, crafted with smooth animations and clean component architecture.",
     },
     {

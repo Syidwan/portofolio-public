@@ -7,7 +7,7 @@ export const CTA = {
   eyebrow: "Contact",
   heading: "Got something you want built?",
   subhead:
-    "Looking for a passionate frontend/software developer or have an interesting project? Let's connect and discuss how I can contribute.",
+    "Looking for a passionate Software Engineer or have an interesting project? Let's connect and discuss how I can contribute.",
   primary: {
     label: "Get in touch",
     href: "mailto:nirwanrasyidridlo@gmail.com",

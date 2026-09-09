@@ -13,7 +13,7 @@ export const FAQ = {
       id: "engagement-types",
       question: "What kind of opportunities are you open to?",
       answer:
-        "I am actively open to internship programs, full-time junior software engineering roles, and freelance web development projects — both frontend-focused and full-stack.",
+        "I am actively open to internship programs, full-time junior software engineering roles, and freelance software development projects across full stack, mobile, and web.",
     },
     {
       id: "stack",

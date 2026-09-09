@@ -14,7 +14,7 @@ export const TESTIMONIALS = {
       name: "PT LEN Industri (Persero)",
       title: "Internship Certificate · Dec 2025",
       quote:
-        "Completed a 4-month professional internship in the Portfolio Optimization Division, successfully delivering frontend prototypes for asset monitoring dashboards and electric motorcycle tracking systems.",
+        "Completed a 4-month professional internship in the Portfolio Optimization Division, successfully delivering software prototypes for asset monitoring dashboards and electric motorcycle tracking systems.",
       avatar: { initials: "LEN", tone: "violet" },
       href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/details/certifications/",
       linkLabel: "View on LinkedIn",
