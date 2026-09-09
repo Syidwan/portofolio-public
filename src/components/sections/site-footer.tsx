@@ -1,4 +1,5 @@
 import { BrandGitHub } from "@/components/icons/brand/github";
+import { BrandLinkedIn } from "@/components/icons/brand/linkedin";
 import { BrandX } from "@/components/icons/brand/x";
 import { Container } from "@/components/primitives/container";
 import { Link } from "@/components/primitives/link";
@@ -15,6 +16,7 @@ const BRAND_GLYPHS: Record<
   React.ComponentType<React.SVGProps<SVGSVGElement>> | undefined
 > = {
   GitHub: BrandGitHub,
+  LinkedIn: BrandLinkedIn,
   X: BrandX,
 };
 

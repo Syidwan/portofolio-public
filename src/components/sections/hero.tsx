@@ -1,6 +1,7 @@
 import { MapPin } from "lucide-react";
 
 import { BrandGitHub } from "@/components/icons/brand/github";
+import { BrandLinkedIn } from "@/components/icons/brand/linkedin";
 import { BrandX } from "@/components/icons/brand/x";
 import { Avatar } from "@/components/primitives/avatar";
 import { Badge } from "@/components/primitives/badge";
@@ -25,6 +26,7 @@ import { cn } from "@/lib/cn";
 // for the close glyph.
 const GLYPHS = {
   github: BrandGitHub,
+  linkedin: BrandLinkedIn,
   x: BrandX,
 } as const;
 

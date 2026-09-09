@@ -3,9 +3,9 @@ import type { FooterContent } from "./types";
 export const FOOTER = {
   landmarkLabel: "Site footer",
   brand: {
-    wordmark: "sagarshah.dev",
-    tagline: "Full Stack AI Engineer. React on top, Node underneath.",
-    location: "Ahmedabad, India · IST (UTC+5:30)",
+    wordmark: "portofolio-public",
+    tagline: "Software Developer · AI Engineer · Data Scientist.",
+    location: "Bandung, Indonesia · WIB (UTC+7)",
   },
   columns: [
     {
@@ -20,7 +20,7 @@ export const FOOTER = {
         { label: "About", href: "#about" },
         { label: "Stack", href: "#stack" },
         { label: "Experience", href: "#experience" },
-        { label: "Testimonials", href: "#testimonials" },
+        { label: "Certifications", href: "#testimonials" },
         { label: "FAQ", href: "#faq" },
         { label: "Contact", href: "#contact" },
       ],
@@ -28,13 +28,14 @@ export const FOOTER = {
     {
       id: "connect",
       heading: "Connect",
-      // No LinkedIn on purpose — no known profile URL exists, and guessing one
-      // is out of bounds.
       links: [
-        { label: "Email", href: "mailto:reachsagarshah@gmail.com" },
-        { label: "Phone", href: "tel:+918980500565" },
-        { label: "GitHub", href: "https://github.com/shahsagarm" },
-        { label: "X", href: "https://x.com/shahsagarm" },
+        { label: "Email", href: "mailto:nirwanrasyidridlo@gmail.com" },
+        { label: "Phone", href: "tel:+6289527340406" },
+        { label: "GitHub", href: "https://github.com/Syidwan" },
+        {
+          label: "LinkedIn",
+          href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/",
+        },
       ],
     },
     {
@@ -43,11 +44,11 @@ export const FOOTER = {
       links: [
         {
           label: "Download CV",
-          href: "/files/sagar-shah-full-stack-ai-engineer.pdf",
+          href: "https://drive.google.com/file/d/1fHypZtg2r1VU8wJ-wDZlZbuH4c51iRmd/view?usp=sharing",
         },
         {
           label: "Source code",
-          href: "https://github.com/shahsagarm/sagarshah.dev",
+          href: "https://github.com/Syidwan/portofolio",
         },
         { label: "llms.txt", href: "/llms.txt" },
         {
@@ -59,14 +60,12 @@ export const FOOTER = {
   ],
   copyright: {
     symbol: "©",
-    owner: "Sagar Shah",
+    owner: "Nirwan Rasyid Ridlo",
     separator: "·",
-    // Renders as "© {year} Sagar Shah · Designed and coded in Ahmedabad,
-    // India." The year comes from src/lib/now.ts, never stored here.
     segments: [
       "Designed and ",
-      { text: "coded", href: "https://github.com/shahsagarm/sagarshah.dev" },
-      " in Ahmedabad, India.",
+      { text: "coded", href: "https://github.com/Syidwan/portofolio" },
+      " in Bandung, Indonesia.",
     ],
   },
 } as const satisfies FooterContent;

@@ -7,30 +7,30 @@ export const CTA = {
   eyebrow: "Contact",
   heading: "Got something you want built?",
   subhead:
-    "Tell me what you're working on. I'll tell you honestly whether I'm the right person for it — and what it would take.",
+    "Looking for a passionate frontend/software developer or have an interesting project? Let's connect and discuss how I can contribute.",
   primary: {
-    label: "Start a project",
-    href: "mailto:reachsagarshah@gmail.com",
+    label: "Get in touch",
+    href: "mailto:nirwanrasyidridlo@gmail.com",
   },
   secondary: {
     label: "Download CV",
-    href: "/files/sagar-shah-full-stack-ai-engineer.pdf",
+    href: "https://drive.google.com/file/d/1fHypZtg2r1VU8wJ-wDZlZbuH4c51iRmd/view?usp=sharing",
   },
   contactsLead: "You'll also find me here.",
   contacts: [
     {
       id: "email",
       label: "Email",
-      value: "reachsagarshah@gmail.com",
-      href: "mailto:reachsagarshah@gmail.com",
+      value: "nirwanrasyidridlo@gmail.com",
+      href: "mailto:nirwanrasyidridlo@gmail.com",
       copyLabel: "Copy email address",
       copiedLabel: "Copied!",
     },
     {
       id: "phone",
       label: "Phone",
-      value: "+91 8980500565",
-      href: "tel:+918980500565",
+      value: "+62 895-2734-0406",
+      href: "tel:+6289527340406",
       copyLabel: "Copy phone number",
       copiedLabel: "Copied!",
     },

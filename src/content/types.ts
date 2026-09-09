@@ -51,7 +51,7 @@ export interface BandHeaderContent {
   readonly subhead?: string;
 }
 
-export type BrandIconName = "github" | "x";
+export type BrandIconName = "github" | "x" | "linkedin";
 
 export interface SocialLink {
   readonly label: string;
@@ -265,6 +265,8 @@ export interface Testimonial {
   readonly title: string;
   readonly quote: string;
   readonly avatar: AvatarSource;
+  readonly href?: `https://${string}`;
+  readonly linkLabel?: string;
 }
 
 export interface TestimonialsContent {

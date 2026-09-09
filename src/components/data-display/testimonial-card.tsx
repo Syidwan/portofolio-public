@@ -1,5 +1,10 @@
+import { ArrowUpRight } from "lucide-react";
+
 import { Avatar } from "@/components/primitives/avatar";
+import { Button } from "@/components/primitives/button";
 import { Card } from "@/components/primitives/card";
+import { Icon } from "@/components/primitives/icon";
+import { Link } from "@/components/primitives/link";
 import { Text } from "@/components/primitives/text";
 import type { Testimonial } from "@/content/types";
 
@@ -8,7 +13,7 @@ export type TestimonialCardProps = {
 };
 
 export function TestimonialCard({ testimonial }: TestimonialCardProps) {
-  const { name, title, quote, avatar } = testimonial;
+  const { name, title, quote, avatar, href, linkLabel } = testimonial;
 
   return (
     // p-6 over the surface's p-8: DESIGN.md's testimonial card is the same
@@ -38,6 +43,18 @@ export function TestimonialCard({ testimonial }: TestimonialCardProps) {
       <Text as="blockquote" variant="body-md">
         {quote}
       </Text>
+      {href ? (
+        <Button
+          variant="text-link"
+          asChild
+          className="mt-auto inline-flex items-center gap-1.5 self-start py-2"
+        >
+          <Link href={href} variant="unstyled">
+            {linkLabel ?? "View on LinkedIn"}
+            <Icon icon={ArrowUpRight} />
+          </Link>
+        </Button>
+      ) : null}
     </Card>
   );
 }

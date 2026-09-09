@@ -4,7 +4,7 @@ export const NAV = {
   // "/#hero", not "/": next/link ignores a click on the route you are already
   // on, so "/" would never scroll. The leading slash also keeps the link
   // working from the 404 page.
-  wordmark: { label: "sagarshah.dev", href: "/#hero" },
+  wordmark: { label: "portofolio-public", href: "/#hero" },
   landmarkLabel: "Main",
   // Five links is the ceiling — six start wrapping on tablet widths. Stack,
   // FAQ and Contact are left out here but stay in the footer, which keeps
@@ -14,11 +14,11 @@ export const NAV = {
     { label: "Work", href: "#work" },
     { label: "About", href: "#about" },
     { label: "Experience", href: "#experience" },
-    { label: "Testimonials", href: "#testimonials" },
+    { label: "Certifications", href: "#testimonials" },
   ],
   cv: {
     label: "Download CV",
-    href: "/files/sagar-shah-full-stack-ai-engineer.pdf",
+    href: "https://drive.google.com/file/d/1fHypZtg2r1VU8wJ-wDZlZbuH4c51iRmd/view?usp=sharing",
   },
   cta: { label: "Let's talk", href: "#contact" },
   menuOpenLabel: "Open menu",

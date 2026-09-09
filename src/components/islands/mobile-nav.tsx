@@ -152,18 +152,34 @@ export function MobileNav({
               tokens.overrides["hairline-top"],
             )}
           >
-            <a
-              href={cv.href}
-              download
-              onClick={close}
-              className={cn(
-                tokens.components["button-secondary"],
-                tokens.overrides["focus-ring"],
-                "inline-flex items-center justify-center",
-              )}
-            >
-              {cv.label}
-            </a>
+            {cv.href.startsWith("http") ? (
+              <a
+                href={cv.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={close}
+                className={cn(
+                  tokens.components["button-secondary"],
+                  tokens.overrides["focus-ring"],
+                  "inline-flex items-center justify-center",
+                )}
+              >
+                {cv.label}
+              </a>
+            ) : (
+              <a
+                href={cv.href}
+                download
+                onClick={close}
+                className={cn(
+                  tokens.components["button-secondary"],
+                  tokens.overrides["focus-ring"],
+                  "inline-flex items-center justify-center",
+                )}
+              >
+                {cv.label}
+              </a>
+            )}
             <a
               href={cta.href}
               onClick={close}

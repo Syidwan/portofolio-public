@@ -50,9 +50,19 @@ export function CtaBand() {
                 <a href={CTA.primary.href}>{CTA.primary.label}</a>
               </Button>
               <Button variant="secondary" asChild>
-                <a href={CTA.secondary.href} download>
-                  {CTA.secondary.label}
-                </a>
+                {CTA.secondary.href.startsWith("http") ? (
+                  <a
+                    href={CTA.secondary.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {CTA.secondary.label}
+                  </a>
+                ) : (
+                  <a href={CTA.secondary.href} download>
+                    {CTA.secondary.label}
+                  </a>
+                )}
               </Button>
             </div>
 

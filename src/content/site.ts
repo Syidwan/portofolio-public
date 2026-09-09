@@ -1,69 +1,66 @@
 import type { SiteContent } from "./types";
 
 export const SITE = {
-  wordmark: "sagarshah.dev",
-  name: "Sagar Shah",
+  wordmark: "portofolio-public",
+  name: "Nirwan Rasyid Ridlo",
   // Rendered verbatim into the OG image and JSON-LD. Keep it short or the OG
   // line wraps.
-  jobTitle: "Full Stack AI Engineer",
-  url: "https://sagarshah.dev",
+  jobTitle: "Software Developer · AI Engineer · Data Scientist",
+  url: "https://portofolio-public.vercel.app",
   title:
-    "Sagar Shah — Full Stack AI Engineer (React & Node) in Ahmedabad, India",
-  titleTemplate: "%s | Sagar Shah",
+    "Nirwan Rasyid Ridlo — Software Developer · AI Engineer · Data Scientist in Bandung, Indonesia",
+  titleTemplate: "%s | Nirwan Rasyid Ridlo",
   description:
-    "Freelance full stack AI engineer in Ahmedabad, India. A decade of fast, accessible React, Next.js and Node products, now with AI agents on top. Available for new projects.",
+    "Software Developer, AI Engineer, and Data Scientist based in Bandung, Indonesia. Skilled in React, Next.js, Flutter, Nest.js, Python, and AI-assisted workflows.",
   keywords: [
-    "Sagar Shah",
-    "Full Stack AI Engineer",
-    "AI Engineer",
-    "LLM Application Developer",
+    "Nirwan Rasyid Ridlo",
+    "Software Developer",
+    "Frontend Developer",
     "Full Stack Developer",
-    "Freelance Developer",
+    "AI Engineer",
+    "Data Scientist",
     "React Developer",
     "Next.js Developer",
-    "Node.js Developer",
-    "TypeScript Developer",
-    "Frontend Developer",
-    "Freelance Developer India",
-    "Web Developer Ahmedabad",
+    "Flutter Developer",
+    "Web Developer Bandung",
+    "AI Assisted Developer",
   ],
-  ogTitle: "Sagar Shah — I build web products end to end.",
+  ogTitle: "Nirwan Rasyid Ridlo — Software Developer",
   ogDescription:
-    "Full stack AI engineer (React, Node & AI agents) in Ahmedabad, India. A decade of shipping production web apps for founders and product teams. Currently available for freelance work.",
-  ogImageAlt: "Sagar Shah, full stack AI engineer — sagarshah.dev",
-  twitterTitle: "Sagar Shah — I build web products end to end.",
+    "Frontend & Software Developer based in Bandung, Indonesia. Specializing in responsive web, mobile applications, and AI-assisted development.",
+  ogImageAlt: "Nirwan Rasyid Ridlo, software developer — portofolio-public",
+  twitterTitle: "Nirwan Rasyid Ridlo — Software Developer",
   twitterDescription:
-    "Full stack AI engineer (React, Node & AI agents), Ahmedabad. A decade of shipping production web apps. Open for freelance work.",
-  twitterHandle: "@shahsagarm",
-  locale: "en_US",
+    "Frontend & Software Developer (React, Next.js, Flutter & AI tools) in Bandung, Indonesia.",
+  twitterHandle: "@nirwanrasyid",
+  locale: "id_ID",
   themeColor: "white",
-  locationLabel: "Ahmedabad, India · IST (UTC+5:30)",
-  locality: "Ahmedabad",
-  region: "Gujarat",
-  countryCode: "IN",
-  timeZone: "Asia/Kolkata",
-  email: "reachsagarshah@gmail.com",
-  emailHref: "mailto:reachsagarshah@gmail.com",
-  phoneLabel: "+91 8980500565",
+  locationLabel: "Bandung, Indonesia · WIB (UTC+7)",
+  locality: "Bandung",
+  region: "Jawa Barat",
+  countryCode: "ID",
+  timeZone: "Asia/Jakarta",
+  email: "nirwanrasyidridlo@gmail.com",
+  emailHref: "mailto:nirwanrasyidridlo@gmail.com",
+  phoneLabel: "+62 895-2734-0406",
   // Written by hand, not derived from phoneLabel — a string replace only swaps
   // the first match and once left a space in the number.
-  phoneHref: "tel:+918980500565",
+  phoneHref: "tel:+6289527340406",
   cv: {
     label: "Download CV",
-    href: "/files/sagar-shah-full-stack-ai-engineer.pdf",
+    href: "https://drive.google.com/file/d/1fHypZtg2r1VU8wJ-wDZlZbuH4c51iRmd/view?usp=sharing",
   },
-  // One record read by both hero and footer, so they can never disagree. If
-  // this flips to false: label becomes "Booked until <Month>" and the green
-  // dot is not rendered at all. The wording is also hand-written in places
-  // this record does not drive — update them too: hero.ts terminal status
-  // line, faq.ts "getting-started" answer, about.ts closing, and the
-  // description/ogDescription/twitterDescription strings above.
-  availability: { available: true, label: "Available for new projects" },
+  // One record read by both hero and footer, so they can never disagree.
+  availability: { available: true, label: "Available for new opportunities" },
   social: [
-    { label: "GitHub", href: "https://github.com/shahsagarm", icon: "github" },
-    { label: "X", href: "https://x.com/shahsagarm", icon: "x" },
+    { label: "GitHub", href: "https://github.com/Syidwan", icon: "github" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/",
+      icon: "linkedin",
+    },
   ],
-  repoUrl: "https://github.com/shahsagarm/sagarshah.dev",
+  repoUrl: "https://github.com/Syidwan/portofolio",
   figmaTemplateUrl:
     "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
   skipLinkLabel: "Skip to main content",
@@ -77,7 +74,7 @@ export const SITE = {
   errorPage: {
     title: "Something went wrong",
     heading: "Something went wrong.",
-    body: "An unexpected error stopped this page from rendering. Trying again usually fixes it. If it keeps happening, email reachsagarshah@gmail.com and tell me what you were doing.",
+    body: "An unexpected error stopped this page from rendering. Trying again usually fixes it. If it keeps happening, email nirwanrasyidridlo@gmail.com and tell me what you were doing.",
     retryLabel: "Try again",
     link: { label: "Back to the homepage", href: "/" },
     digestLabel: "Error reference",

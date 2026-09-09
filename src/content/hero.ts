@@ -1,20 +1,20 @@
-import headshot from "@/assets/images/sagar-headshot.jpg";
+import headshot from "@/assets/images/nirwan-headshot.jpg";
 
 import type { HeroContent } from "./types";
 
 export const HERO = {
   id: "hero",
-  eyebrow: "Full Stack AI Engineer · 10+ years shipping",
-  headlineLead: "Hi, I'm Sagar",
+  eyebrow: "Software Developer · Frontend & Full Stack · AI Engineer · Data Scientist",
+  headlineLead: "Hi, I'm Nirwan",
   // Separate from headlineLead so it can sit in its own span — animated by
   // CSS, hidden from screen readers.
   wave: "👋",
-  headlineClaim: "I build web products end to end.",
+  headlineClaim: "I build intuitive web & mobile apps.",
   subhead:
-    "Full Stack AI Engineer. React on top, Node underneath, and a decade of caring about both. One person with AI in the loop, moving at the speed of a team. Ahmedabad, India — working with teams worldwide.",
-  primary: { label: "Start a project", href: "#contact" },
+    "Software Developer with strong frontend specialization and full stack experience. Building modern web with React & Next.js, mobile apps with Flutter, and backend APIs with Nest.js. Leveraging AI-assisted development to ship clean, production-ready solutions.",
+  primary: { label: "Get in touch", href: "#contact" },
   secondary: { label: "See my work", href: "#work" },
-  location: "Ahmedabad, India · IST (UTC+5:30)",
+  location: "Bandung, Indonesia · WIB (UTC+7)",
   // Empty alt on purpose: the photo sits right beside the name in the <h1>,
   // and describing it would make a screen reader say the name twice.
   portrait: { src: headshot, alt: "" },
@@ -23,15 +23,15 @@ export const HERO = {
   // clips at the card edge on a 375px phone. One code point per terminal
   // cell: no emoji or wide glyphs here.
   terminal: {
-    title: "sagar@dev",
+    title: "nirwan@dev",
     lines: [
-      { kind: "prompt", text: "find a dev who ships end to end" },
-      { kind: "result", text: "Found 1 match: Sagar Shah" },
-      { kind: "branch", text: "10+ yrs · React · Node · TS" },
-      { kind: "branch", text: "Figma to pixel-perfect code" },
-      { kind: "branch", text: "mokoboko.xyz — bookings" },
-      { kind: "branch", text: "fiskil.com — open banking" },
-      { kind: "status", text: "Available for new projects" },
+      { kind: "prompt", text: "find a frontend software dev" },
+      { kind: "result", text: "Found 1 match: Nirwan Rasyid" },
+      { kind: "branch", text: "React · Next.js · Flutter" },
+      { kind: "branch", text: "Nest.js · PostgreSQL · MySQL" },
+      { kind: "branch", text: "Ex-Intern PT LEN Industri" },
+      { kind: "branch", text: "AI Engineer · Data Scientist" },
+      { kind: "status", text: "Available for opportunities" },
       { kind: "prompt", text: "hire him", cursor: true },
     ],
   },

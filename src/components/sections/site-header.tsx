@@ -63,12 +63,21 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-2">
-          {/* Raw <a download>, not Link: the CV must download, not navigate,
-              and Link has no download prop. */}
+          {/* When external, open in a new tab; when local, prompt download. */}
           <Button variant="text-link" asChild className="hidden lg:inline-flex">
-            <a href={NAV.cv.href} download>
-              {NAV.cv.label}
-            </a>
+            {NAV.cv.href.startsWith("http") ? (
+              <a
+                href={NAV.cv.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {NAV.cv.label}
+              </a>
+            ) : (
+              <a href={NAV.cv.href} download>
+                {NAV.cv.label}
+              </a>
+            )}
           </Button>
           <Button variant="primary" asChild className="hidden md:inline-flex">
             <a href={NAV.cta.href}>{NAV.cta.label}</a>

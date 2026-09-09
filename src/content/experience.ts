@@ -1,16 +1,16 @@
 import type { StaticImageData } from "next/image";
 
-import dotnpixelLogo from "@/assets/images/companies/dotnpixel.svg";
-import greenapexLogo from "@/assets/images/companies/greenapex.svg";
-import upworkLogo from "@/assets/images/companies/upwork.svg";
+import lenLogo from "@/assets/images/companies/len.png";
+import raffidLogo from "@/assets/images/companies/raffid.svg";
+import raphoncellLogo from "@/assets/images/companies/raphoncell.svg";
 
 import type { ExperienceContent } from "./types";
 
 // Same "*.svg" typing fix as tech.ts.
 const LOGOS: Readonly<Record<string, StaticImageData>> = {
-  dotnpixel: dotnpixelLogo,
-  greenapex: greenapexLogo,
-  upwork: upworkLogo,
+  len: lenLogo,
+  raphoncell: raphoncellLogo,
+  raffid: raffidLogo,
 };
 
 // No duration strings stored — they are computed from these dates on every
@@ -19,50 +19,49 @@ export const EXPERIENCE = {
   header: {
     id: "experience",
     eyebrow: "Experience",
-    heading: "A decade, three chapters.",
+    heading: "Work & Internship Journey.",
     subhead:
-      "Agency developer, then team lead, then independent. Here's the honest summary — the full version is in the CV.",
+      "Professional internship at state enterprise, freelance client development, and technical troubleshooting.",
   },
   roles: [
     {
-      id: "upwork",
-      company: "Upwork",
-      position: "Independent Freelancer",
-      logo: LOGOS.upwork,
-      startISO: "2021-11",
-      endISO: "present",
+      id: "raphoncell",
+      company: "RAphonecell Electronics",
+      position: "Freelance Web Developer",
+      logo: LOGOS.raphoncell,
+      startISO: "2026-01",
+      endISO: "2026-04",
       bullets: [
-        "Ship production front ends and APIs for clients including MokoBoko, Fiskil, Lantern, Shosho and Crowe MacKay LLP.",
-        "Own features end to end — typed React and Next.js interfaces, the Node and Go services behind them, and the shared component libraries that keep them consistent.",
-        "Build the AI layer alongside the product — tool-calling agents and streaming chat for Lantern, an AI docs assistant and MCP server for Fiskil — on the Claude and OpenAI APIs.",
-        "Turn Figma files into pixel-perfect, accessible interfaces, and build the interface anyway when there is no designer.",
-        "Working stack: React, Next.js, TypeScript, Tailwind CSS, React Query, Node.js, Express, NestJS, Go, PostgreSQL, Firebase, Playwright.",
+        "Developed Ostace POS — a management and point-of-sale web application to digitize sales, repair-service tracking, and inventory operations.",
+        "Built the web dashboard with React and Next.js, and backend services using Nest.js and PostgreSQL.",
+        "Delivered full-featured operational workflows from database schema design to responsive user interfaces.",
+        "Leveraged AI-assisted development tools (Claude Code, Gemini, ChatGPT) to accelerate prototyping and delivery while maintaining clean code standards.",
       ],
     },
     {
-      id: "greenapex",
-      company: "Greenapex",
-      position: "Team Lead",
-      logo: LOGOS.greenapex,
-      startISO: "2017-07",
-      endISO: "2021-10",
+      id: "len",
+      company: "PT LEN Industri (Persero)",
+      position: "Frontend Programmer Intern",
+      logo: LOGOS.len,
+      startISO: "2025-09",
+      endISO: "2025-12",
       bullets: [
-        "Led delivery teams across enterprise client projects.",
-        "Designed front-end and back-end architecture from scratch.",
-        "Ran sprint planning, estimation and task distribution.",
-        "Took internal product ideas from requirements gathering through to launch.",
+        "Completed a 4-month internship placed within the Portfolio Optimization division, focused on designing and building frontend prototypes.",
+        "Designed and developed an analytics dashboard prototype for monitoring and visualizing company assets.",
+        "Built the frontend prototype for an electric motorcycle tracking and monitoring mobile application.",
+        "Collaborated with cross-functional teams to translate monitoring requirements into functional, user-friendly interfaces.",
       ],
     },
     {
-      id: "dotnpixel",
-      company: "Dotnpixel",
-      position: "Full Stack Developer",
-      logo: LOGOS.dotnpixel,
-      startISO: "2015-12",
-      endISO: "2017-05",
+      id: "raffid",
+      company: "Raffid Cellular",
+      position: "Counter Staff & Electronics Repair Technician",
+      logo: LOGOS.raffid,
+      startISO: "2024-01",
+      endISO: "2024-02",
       bullets: [
-        "First full-stack role: built and maintained client web apps — React on the front end, Laravel behind it.",
-        "Where the habits started — read the ticket, ship the thing, own the bug.",
+        "Managed sales operations and provided repair services for electronics, including phones, tablets, and laptops.",
+        "Gained hands-on experience in diagnosing and fixing hardware and software issues, enhancing technical troubleshooting skills.",
       ],
     },
   ],

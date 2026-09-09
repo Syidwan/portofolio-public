@@ -7,28 +7,28 @@ export const CAPABILITIES = {
   header: {
     id: "services",
     eyebrow: "Services",
-    heading: "What you can hand me.",
+    heading: "What I bring to the table.",
     subhead:
-      "AI features, the product around them, or just the half you are missing. All three work.",
+      "Frontend engineering, full stack development, or cross-platform mobile applications.",
   },
   items: [
     {
-      id: "ai",
-      icon: "bot",
-      title: "AI features that survive users",
-      body: "Chat that streams, agents that call your tools, retrieval that answers from your data instead of guessing, and long jobs that keep running after the tab closes. Built on the Claude and OpenAI APIs, with evaluations and spend limits in place before launch, not after the first bill.",
-    },
-    {
-      id: "product",
+      id: "frontend",
       icon: "layers",
-      title: "The whole product, front to back",
-      body: "Typed React and Next.js on top; Node with Express or NestJS and PostgreSQL underneath, plus vector search when your data has to be found by meaning rather than by keyword. Fast on a mid-range phone, usable from the keyboard, accessible by default rather than by audit. One person owns both ends, so nothing falls through the gap between them.",
+      title: "Modern Frontend Engineering",
+      body: "Responsive, performant, and accessible interfaces built with React, Next.js, and Tailwind CSS. From analytics dashboards to interactive web apps, crafted with smooth animations and clean component architecture.",
     },
     {
-      id: "design",
+      id: "fullstack",
+      icon: "bot",
+      title: "Full Stack & Cross-Platform Mobile",
+      body: "Complete product delivery: Nest.js and Node.js backend services backed by PostgreSQL or MySQL, paired with cross-platform mobile apps built with Flutter, real-time APIs, and intuitive user experiences.",
+    },
+    {
+      id: "ai",
       icon: "pen-tool",
-      title: "Design to code, designer optional",
-      body: "Send a Figma file and it comes back as pixel-perfect, responsive, accessible code. No Figma file and no designer? I use AI to put a clickable wireframe in front of you within a day, then build the real interface from your existing components. Nothing waits on a hire.",
+      title: "AI-Assisted Accelerated Delivery",
+      body: "Comfortable working in an AI-assisted development workflow (Claude Code, Gemini, Antigravity) to accelerate prototyping, test coverage, and production-ready implementation while maintaining high code quality.",
     },
   ],
 } as const satisfies CapabilitiesContent;

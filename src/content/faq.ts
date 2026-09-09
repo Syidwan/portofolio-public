@@ -1,59 +1,49 @@
 import type { FaqContent } from "./types";
 
-// No pricing on purpose: a rate on the page prices the work before the
-// conversation that would justify it.
 export const FAQ = {
   header: {
     id: "faq",
     eyebrow: "FAQ",
-    heading: "Questions people ask before hiring me.",
-    subhead: "Short answers. Anything else, email me.",
+    heading: "Frequently Asked Questions.",
+    subhead: "Quick answers about collaboration and my background. Anything else, feel free to reach out.",
   },
-  // Every <details> shares this name, so the browser closes one answer when
-  // another opens — an accordion with zero JavaScript.
   groupName: "faq",
   items: [
     {
-      id: "how-we-work",
-      question: "How do we work together?",
-      answer:
-        "A short call to pin down the real problem, then a written plan with milestones before I write any code. After that you get working software every week — not a status update.",
-    },
-    {
       id: "engagement-types",
-      question: "What kind of work do you take on?",
+      question: "What kind of opportunities are you open to?",
       answer:
-        "Three kinds: a fixed project with a clear scope, a monthly retainer, or joining your team as an extra pair of hands. I'll build the whole thing or just the front end — your call.",
-    },
-    {
-      id: "ai",
-      question: "Can you build AI features?",
-      answer:
-        "Yes — chat that streams, agents that use your tools, answers pulled from your own data. Built on the Claude and OpenAI APIs, with spend limits and tests in place before launch, not after the first bill.",
-    },
-    {
-      id: "design",
-      question: "I don't have a designer. Is that a problem?",
-      answer:
-        "No. Send a Figma file and it comes back as pixel-perfect code. No Figma? I'll put a clickable wireframe in front of you within a day, then build the real thing from your existing components.",
+        "I am actively open to internship programs, full-time junior software engineering roles, and freelance web development projects — both frontend-focused and full-stack.",
     },
     {
       id: "stack",
-      question: "What do you build with?",
+      question: "What technologies do you primarily build with?",
       answer:
-        "React, Next.js and TypeScript on the front. Node with Express or NestJS and PostgreSQL behind it. If your stack is something else, tell me — I'd rather say it's not a fit than learn on your budget.",
+        "My daily drivers are React, Next.js, and TypeScript with Tailwind CSS on the frontend; Nest.js and Node.js with PostgreSQL or MySQL on the backend; and Flutter for cross-platform mobile apps.",
+    },
+    {
+      id: "ai",
+      question: "How do you integrate AI into your workflow?",
+      answer:
+        "I use AI coding tools like Claude Code, Gemini, and Antigravity to accelerate prototyping, generate robust test scaffolding, and explore architectural patterns, while ensuring code quality, security, and manual verification.",
+    },
+    {
+      id: "design",
+      question: "Can you implement designs without a dedicated UI designer?",
+      answer:
+        "Yes. I can translate detailed Figma mockups into pixel-perfect, responsive code. When there is no designer, I build clean and accessible interfaces directly using Tailwind CSS and modern design systems.",
     },
     {
       id: "timezone",
-      question: "Where are you based, and will our hours overlap?",
+      question: "Where are you based, and are you open to remote work?",
       answer:
-        "Ahmedabad, India — IST (UTC+5:30). That's a full working day with Europe, mornings with Australia, and the start of the day with the US East Coast. Slack and email day to day, calls when a call is faster.",
+        "I am based in Bandung, Indonesia — WIB (UTC+7). I am fully equipped for remote work, hybrid arrangements, or on-site opportunities in the Bandung area.",
     },
     {
       id: "getting-started",
-      question: "Are you free, and how do we start?",
+      question: "How can someone reach out to start a conversation?",
       answer:
-        "Yes, I'm taking on new work right now. Email reachsagarshah@gmail.com with what you're building and when you need it — if it's a fit, you get a plan and a timeline back; if it isn't, I'll say so.",
+        "You can email me at nirwanrasyidridlo@gmail.com, message me via LinkedIn, or call/WhatsApp at +62 895-2734-0406. I typically respond within 24 hours.",
     },
   ],
 } as const satisfies FaqContent;

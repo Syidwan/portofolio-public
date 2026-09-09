@@ -1,4 +1,4 @@
-import familyPhoto from "@/assets/images/sagar-family.jpg";
+import nirwanPhoto from "@/assets/images/nirwan-body.jpg";
 
 import type { AboutContent } from "./types";
 
@@ -6,42 +6,45 @@ export const ABOUT = {
   header: {
     id: "about",
     eyebrow: "About",
-    heading: "A decade of building for the web. Still not bored.",
+    heading: "Building software with care, curiosity, and modern workflows.",
   },
   photo: {
-    src: familyPhoto,
-    alt: "Sagar Shah, on the right, standing outdoors in the evening with his family in front of a floodlit stone wall, wearing a brown-striped shirt and white trousers.",
+    src: nirwanPhoto,
+    alt: "Nirwan Rasyid Ridlo",
   },
   paragraphs: [
     [
-      "I'm a full stack AI engineer who takes the whole product — the architecture underneath and the pixels on top. I don't hand the interface to someone else and hope it comes back right. User experience, accessible markup, and code the next person can actually read all matter to me equally.",
+      "I'm a Software Developer based in Bandung, Indonesia, with a strong focus on Frontend Engineering and growing full stack experience. I enjoy turning complex problem statements into functional, responsive, and visually appealing applications that solve real-world problems.",
     ],
     [
-      "I shipped my first production code in December 2015 and haven't stopped since. A decade later the tools have changed — these days it's Next.js, TypeScript, NestJS and Tailwind CSS — but the part I like most hasn't: watching something go from a rough sketch to a URL that real people use.",
+      "Currently pursuing my Informatics Engineering degree at UIN Sunan Gunung Djati Bandung (maintaining a 3.76 GPA), my journey combines solid academic foundations with intensive practical experience — from engineering frontend prototypes at PT LEN Industri (Persero) to building counter management systems as a freelance web developer at RAphonecell Electronics.",
     ],
     [
-      "I've worked both sides of the table. Over four years leading teams at an agency — architecture, sprint planning, enterprise clients — and since 2021, independent, working directly with founders and product teams who need one person who can hold the whole picture.",
+      "My core tech stack centers around modern TypeScript ecosystems: React, Next.js, and Tailwind CSS on the web, Nest.js and Node.js for backend APIs, and Flutter for cross-platform mobile apps. I prioritize clean code structure, responsive design, and intuitive user experiences.",
     ],
     [
-      "I like owning a product end to end: ideation, design, build, ship. Small teams suit me best — fewer handoffs, faster decisions, and no ambiguity about who is responsible for the thing working.",
+      "I embrace an AI-assisted development workflow, utilizing tools like Claude Code, Gemini, and Antigravity to accelerate the software lifecycle — from initial prototyping to production-ready implementation, while maintaining architectural standards and thorough review.",
     ],
     [
-      "When I'm not in developer mode, you'll find me on ",
-      { text: "X", href: "https://x.com/shahsagarm" },
-      " or Indie Hackers, watching early-stage founders build in public. I do a bit of that myself — I post what I'm learning and what I'm breaking, and most of it ends up on ",
-      { text: "GitHub", href: "https://github.com/shahsagarm" },
+      "When I'm not coding, you'll find me exploring emerging developer tooling, refining user interfaces, or contributing to projects on ",
+      { text: "GitHub", href: "https://github.com/Syidwan" },
+      " and connecting with fellow developers on ",
+      {
+        text: "LinkedIn",
+        href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/",
+      },
       ".",
     ],
   ],
   quickBitsLead: "A few quick bits:",
   quickBits: [
-    "B.E. in Computer Engineering",
-    "Full-time freelancer since 2021",
-    "Based in Ahmedabad, India (IST)",
-    "Avid learner",
-    "Aspiring indie hacker",
-    "Ships UI without waiting on a designer",
+    "Informatics Engineering student at UIN Sunan Gunung Djati (GPA: 3.76)",
+    "Frontend Programmer Intern at PT LEN Industri (Persero)",
+    "Passionate about responsive UI/UX and performant web architecture",
+    "Based in Bandung, Indonesia (WIB)",
+    "Proficient with React, Next.js, Flutter & Nest.js",
+    "Comfortable in AI-assisted development workflows",
   ],
   closing:
-    "One last thing: I'm taking on freelance work right now. Say hello — I don't bite.",
+    "I'm always open to discussing new opportunities, internship roles, and software collaborations. Feel free to reach out!",
 } as const satisfies AboutContent;

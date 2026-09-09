@@ -181,12 +181,12 @@ export const overrides = {
   "tech-logo-narrow": "h-10 w-auto",
   "tech-logo-slot": "flex size-10 shrink-0 items-center justify-center",
   // Trust-bar logos are sized per logo, not by shape — see TrustMarkSize in
-  // content/types.ts. 24px is the base; 20px pulls back the two tight crops,
-  // 28px lifts the two padded ones. Change one, re-measure all three.
-  "client-logo": "h-6 w-auto object-contain",
-  "client-logo-sm": "h-5 w-auto object-contain",
-  "client-logo-lg": "h-7 w-auto object-contain",
-  "client-logo-slot": "flex h-8 items-center",
+  // content/types.ts. 32px is the base; 24px pulls back tight crops,
+  // 40px lifts padded marks. Change one, re-measure all three.
+  "client-logo": "h-8 w-auto object-contain",
+  "client-logo-sm": "h-6 w-auto object-contain",
+  "client-logo-lg": "h-10 w-auto object-contain",
+  "client-logo-slot": "flex h-12 items-center",
   // These are wide wordmarks, so height alone is not enough — greenapex would
   // render 142px wide next to a 91px dotnpixel. object-left keeps each one
   // flush with the card edge.

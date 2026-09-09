@@ -1,43 +1,43 @@
-import eugenAvatar from "@/assets/images/avatars/eugen.png";
-import krisztianAvatar from "@/assets/images/avatars/krisztian.png";
-
 import type { TestimonialsContent } from "./types";
 
-// Quotes are word-for-word from the authors — `does:)`, `COMPLEX` and the
-// hyphens are theirs. Do not correct them.
 export const TESTIMONIALS = {
   header: {
     id: "testimonials",
-    eyebrow: "Testimonials",
-    heading: "What it's like to work with me.",
-    subhead: "Unedited words from people who hired me.",
+    eyebrow: "Certifications",
+    heading: "Certifications & Recognized Learning.",
+    subhead:
+      "Formal internship completion, industry certifications, and coursework achievements.",
   },
   items: [
     {
-      id: "krisztian-gyuris",
-      name: "Krisztian Gyuris",
-      title: "Founder, inboxgenie.io",
+      id: "len-cert",
+      name: "PT LEN Industri (Persero)",
+      title: "Internship Certificate · Dec 2025",
       quote:
-        "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
-      avatar: { src: krisztianAvatar, alt: "" },
+        "Completed a 4-month professional internship in the Portfolio Optimization Division, successfully delivering frontend prototypes for asset monitoring dashboards and electric motorcycle tracking systems.",
+      avatar: { initials: "LEN", tone: "violet" },
+      href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/details/certifications/",
+      linkLabel: "View on LinkedIn",
     },
     {
-      id: "eugen-esanu",
-      name: "Eugen Esanu",
-      title: "Founder, shosho.design",
+      id: "cisco-cert",
+      name: "Cisco Networking Academy",
+      title: "NDG Linux Essentials · Jul 2024",
       quote:
-        "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
-      avatar: { src: eugenAvatar, alt: "" },
+        "Demonstrated understanding of Linux operating system architecture, command-line management, user administration, file systems, and open source development workflows.",
+      avatar: { initials: "CS", tone: "emerald" },
+      href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/details/certifications/",
+      linkLabel: "View on LinkedIn",
     },
     {
-      id: "joe-matkin",
-      name: "Joe Matkin",
-      title: "Freelancer",
+      id: "oracle-cert",
+      name: "Oracle Academy",
+      title: "Database Programming with SQL · Oct 2024",
       quote:
-        "Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.",
-      // Initials, never a grey placeholder photo — a stock silhouette next to
-      // a real quote undermines it.
-      avatar: { initials: "JM", tone: "violet" },
+        "Completed rigorous training in relational database concepts, SQL query composition, schema creation, data manipulation, constraints, and data integrity standards.",
+      avatar: { initials: "OR", tone: "orange" },
+      href: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/details/certifications/",
+      linkLabel: "View on LinkedIn",
     },
   ],
 } as const satisfies TestimonialsContent;

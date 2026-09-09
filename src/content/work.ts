@@ -1,8 +1,6 @@
-import fiskilShot from "@/assets/images/work/fiskil.png";
-import lanternShot from "@/assets/images/work/lantern.png";
-import mokobokoShot from "@/assets/images/work/mokoboko.png";
-import pepehousingShot from "@/assets/images/work/pepehousing.png";
-import wingieShot from "@/assets/images/work/wingie.png";
+import lenInternShot from "@/assets/images/work/len-intern.png";
+import ostaceShot from "@/assets/images/work/ostace.png";
+import pawShot from "@/assets/images/work/paw.png";
 
 import type { WorkContent } from "./types";
 
@@ -12,149 +10,80 @@ export const WORK = {
   header: {
     id: "work",
     eyebrow: "Work",
-    heading: "Products I helped build.",
+    heading: "Featured Projects.",
     subhead:
-      "All five are live, in production, with real users. Click through and poke around.",
+      "Selected web and mobile applications built across freelance, enterprise internship, and academic work.",
   },
-  // MokoBoko is first and featured: true, so the band renders it full-width
-  // without sorting. The rest are newest first.
+  // Ostace is first and featured: true, so the band renders it full-width.
   projects: [
     {
-      id: "mokoboko",
-      name: "MokoBoko",
-      domain: "mokoboko.xyz",
-      href: "https://mokoboko.xyz",
+      id: "ostace",
+      name: "Ostace POS",
+      domain: "ostace-pos.vercel.app",
+      href: "https://ostace-pos.vercel.app",
       featured: true,
       description:
-        "Class booking platform for a boutique fitness studio in Lisbon. Browse the live schedule, book classes, buy packs or subscriptions, and pay online.",
-      role: "Full stack — the whole platform: booking app, admin console, a shared component library, and an Express API with Stripe payments and automated emails.",
+        "Point of Sale (POS) and inventory management system designed for RAphonecell Electronics, digitizing counter operations, repair tracking, and daily transaction workflows.",
+      role: "Freelance web developer — built the responsive web dashboard and counter service workflow.",
       stack: [
         "React",
         "Next.js",
         "TypeScript",
         "Tailwind CSS",
-        "Radix UI",
-        "React Query",
-        "Express",
-        "Sequelize",
+        "Nest.js",
         "PostgreSQL",
-        "Supabase",
-        "Stripe",
       ],
       screenshot: {
-        src: mokobokoShot,
-        alt: "Class booking page with a week-strip date picker and timed class cards showing instructor, price and a Book class button.",
+        src: ostaceShot,
+        alt: "Point of sale dashboard showing transaction summary, inventory list, and management panel.",
       },
-      linkLabel: "Visit mokoboko.xyz",
+      linkLabel: "Visit ostace-pos.vercel.app",
     },
     {
-      id: "fiskil",
-      name: "Fiskil",
-      domain: "fiskil.com",
-      href: "https://www.fiskil.com",
+      id: "len-intern",
+      name: "SiHemat — EV Fleet Tracking App",
+      domain: "mockup-intern-project.vercel.app",
+      href: "https://mockup-intern-project.vercel.app",
       featured: false,
       description:
-        "Consumer data sharing infrastructure for banks and energy providers. One API platform for secure, consumer-permissioned data access at scale.",
-      role: "Full stack — the customer console and auth flows, the Go services on Google Cloud behind them, and a docs platform with an AI assistant and MCP server.",
+        "Real-time EV motorcycle fleet tracking mobile application prototype (SiHemat) built for PT LEN Industri (Persero), featuring live GPS telemetry, route replay, safety monitoring, and corporate fleet compliance.",
+      role: "Frontend & Mobile Programmer Intern — developed the Flutter mobile application prototype and interactive showcase web mockup.",
       stack: [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Radix UI",
-        "React Query",
-        "Vite",
-        "Go",
-        "PostgreSQL",
+        "Flutter",
+        "Dart",
+        "Mobile",
+        "Google Maps",
         "Firebase",
-        "Google Cloud",
-        "MCP",
-        "Jest",
-        "Cypress",
-      ],
-      screenshot: {
-        src: fiskilShot,
-        alt: "Marketing hero headlined 'Enable Secure, Scalable Consumer Data Sharing' above a strip of partner logos.",
-      },
-      linkLabel: "Visit fiskil.com",
-    },
-    {
-      id: "lantern",
-      name: "Lantern",
-      domain: "withlantern.com",
-      href: "https://withlantern.com",
-      featured: false,
-      description:
-        "An AI marketing platform. It builds a model of your target customers, then specialized agents research, personalize, and launch campaigns across channels.",
-      role: "Full stack — product UI and the services behind it, from the React Flow workflow builder to Express and Fastify APIs and the Temporal jobs powering the AI agents.",
-      stack: [
-        "React",
         "Next.js",
         "TypeScript",
-        "Tailwind CSS",
-        "React Flow",
-        "Express",
-        "Fastify",
-        "Temporal",
-        "Vercel AI SDK",
-        "OpenAI",
-        "PostgreSQL",
-        "Supabase",
-        "Redis",
       ],
       screenshot: {
-        src: lanternShot,
-        alt: "Dark starfield hero reading 'Agentic Based Marketing' above a product panel pairing an AI chat with a company research table.",
+        src: lenInternShot,
+        alt: "SiHemat mobile app overview showing live EV motorbike GPS tracking and fleet monitoring interface.",
       },
-      linkLabel: "Visit withlantern.com",
+      linkLabel: "Visit mockup-intern-project.vercel.app",
     },
     {
-      id: "wingie",
-      name: "Wingie",
-      domain: "wingie.com",
-      href: "https://www.wingie.com",
+      id: "paw-project",
+      name: "PAW Web Application",
+      domain: "paw-kappa.vercel.app",
+      href: "https://paw-kappa.vercel.app",
       featured: false,
       description:
-        "A flight comparison and booking marketplace. Search fares across airlines, compare what's actually worth flying, and check out in a few clicks.",
-      role: "Full stack — a React and TypeScript interface on an Express and PostgreSQL API, with Redux holding the search and booking state together.",
+        "Web application development project for academic coursework at UIN Sunan Gunung Djati Bandung, implementing modern component design and structured layout.",
+      role: "Frontend developer — building modular UI components, page layouts, and interactive user flows.",
       stack: [
-        "React",
-        "TypeScript",
-        "Redux",
-        "Styled Components",
-        "React Bootstrap",
-        "Express",
-        "PostgreSQL",
-        "Firebase",
-      ],
-      screenshot: {
-        src: wingieShot,
-        alt: "Flight search homepage with a 'Find Cheap Flights' form over a beach photo, above a grid of popular route cards with fares.",
-      },
-      linkLabel: "Visit wingie.com",
-    },
-    {
-      id: "pepehousing",
-      name: "Pepehousing",
-      domain: "pepehousing.com",
-      href: "https://pepehousing.com",
-      featured: false,
-      description:
-        "Rent a flat or a room in Poland. Browse verified listings, message the landlord directly, and pay online — securely, start to finish.",
-      role: "Front end — a Next.js application with a typed data layer on Redux Toolkit, and every component documented in Storybook.",
-      stack: [
-        "React",
         "Next.js",
+        "React",
         "TypeScript",
         "Tailwind CSS",
-        "Redux Toolkit",
-        "Storybook",
+        "Vercel",
       ],
       screenshot: {
-        src: pepehousingShot,
-        alt: "Rental homepage hero headlined 'Accommodation for students and expats', with a search-by-city bar and stat cards for tenants and properties.",
+        src: pawShot,
+        alt: "Web application interface displaying structured data and interactive UI elements.",
       },
-      linkLabel: "Visit pepehousing.com",
+      linkLabel: "Visit paw-kappa.vercel.app",
     },
   ],
 } as const satisfies WorkContent;

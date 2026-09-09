@@ -31,12 +31,12 @@ export function TrustMarkItem({ mark }: TrustMarkItemProps) {
   return (
     <li className={tokens.overrides["client-logo-slot"]}>
       {mark.href ? (
-        // h-11 on the link, not the logo: a 44px touch target around a mark
-        // drawn at 20-28px. Link supplies target, rel and focus ring itself.
+        // h-12 on the link, not the logo: a 48px touch target around a mark
+        // drawn at 24-40px. Link supplies target, rel and focus ring itself.
         <Link
           href={mark.href}
           variant="unstyled"
-          className="inline-flex h-11 items-center"
+          className="inline-flex h-12 items-center"
         >
           {body}
         </Link>
