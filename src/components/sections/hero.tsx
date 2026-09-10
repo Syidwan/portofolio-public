@@ -60,7 +60,10 @@ export function Hero() {
               className="text-balance"
             >
               <span className="block">
-                {HERO.headlineLead}{" "}
+                {HERO.headlineGreeting}{" "}
+                <span className={tokens.overrides["hero-name-highlight"]}>
+                  {HERO.headlineName}
+                </span>{" "}
                 <span
                   aria-hidden="true"
                   className="group inline-block wave-origin motion-safe:animate-wave"

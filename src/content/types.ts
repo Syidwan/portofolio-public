@@ -150,6 +150,8 @@ export interface HeroTerminal {
 export interface HeroContent {
   readonly id: SectionId;
   readonly eyebrow: string;
+  readonly headlineGreeting: string;
+  readonly headlineName: string;
   readonly headlineLead: string;
   readonly wave: string;
   readonly headlineClaim: string;

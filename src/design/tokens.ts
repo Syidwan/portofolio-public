@@ -79,6 +79,7 @@ export const components = {
  *  indexes them by purpose, but this file is the source of truth for the
  *  class strings — check-tokens does not diff this map. */
 export const overrides = {
+  "hero-name-highlight": "text-emerald-600",
   wordmark:
     "font-display text-lg font-semibold tracking-tight text-neutral-900",
   "wordmark-dark":

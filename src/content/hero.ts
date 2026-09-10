@@ -5,7 +5,9 @@ import type { HeroContent } from "./types";
 export const HERO = {
   id: "hero",
   eyebrow: "Software Engineer · Full Stack · AI Engineer · Data Scientist",
-  headlineLead: "Hi, I'm Nirwan",
+  headlineGreeting: "Hi, I'm",
+  headlineName: "Nirwan Rasyid Ridlo",
+  headlineLead: "Hi, I'm Nirwan Rasyid Ridlo",
   // Separate from headlineLead so it can sit in its own span — animated by
   // CSS, hidden from screen readers.
   wave: "👋",
@@ -26,7 +28,7 @@ export const HERO = {
     title: "nirwan@dev",
     lines: [
       { kind: "prompt", text: "find a software engineer" },
-      { kind: "result", text: "Found 1 match: Nirwan Rasyid" },
+      { kind: "result", text: "1 match: Nirwan Rasyid Ridlo" },
       { kind: "branch", text: "React · Next.js · Flutter" },
       { kind: "branch", text: "Nest.js · PostgreSQL · MySQL" },
       { kind: "branch", text: "Ex-Intern PT LEN Industri" },
