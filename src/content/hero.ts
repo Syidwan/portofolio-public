@@ -4,7 +4,7 @@ import type { HeroContent } from "./types";
 
 export const HERO = {
   id: "hero",
-  eyebrow: "Software Engineer · Full Stack · AI Engineer · Data Scientist",
+  eyebrow: "Software Engineer · Full Stack · AI Engineer · Data Engineer",
   headlineGreeting: "Hi, I'm",
   headlineName: "Nirwan Rasyid Ridlo",
   headlineLead: "Hi, I'm Nirwan Rasyid Ridlo",
@@ -32,7 +32,7 @@ export const HERO = {
       { kind: "branch", text: "React · Next.js · Flutter" },
       { kind: "branch", text: "Nest.js · PostgreSQL · MySQL" },
       { kind: "branch", text: "Ex-Intern PT LEN Industri" },
-      { kind: "branch", text: "AI Engineer · Data Scientist" },
+      { kind: "branch", text: "AI Engineer · Data Engineer" },
       { kind: "status", text: "Available for opportunities" },
       { kind: "prompt", text: "hire him", cursor: true },
     ],

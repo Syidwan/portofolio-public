@@ -4,7 +4,7 @@ export const FOOTER = {
   landmarkLabel: "Site footer",
   brand: {
     wordmark: "nirwan_rasyid",
-    tagline: "Software Engineer · AI Engineer · Data Scientist.",
+    tagline: "Software Engineer · AI Engineer · Data Engineer.",
     location: "Bandung, Indonesia · WIB (UTC+7)",
   },
   columns: [

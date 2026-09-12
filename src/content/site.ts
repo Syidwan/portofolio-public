@@ -5,19 +5,19 @@ export const SITE = {
   name: "Nirwan Rasyid Ridlo",
   // Rendered verbatim into the OG image and JSON-LD. Keep it short or the OG
   // line wraps.
-  jobTitle: "Software Engineer · AI Engineer · Data Scientist",
+  jobTitle: "Software Engineer · AI Engineer · Data Engineer",
   url: "https://nirwanrasyidridlo.vercel.app",
   title:
-    "Nirwan Rasyid Ridlo — Software Engineer · AI Engineer · Data Scientist in Bandung, Indonesia",
+    "Nirwan Rasyid Ridlo — Software Engineer · AI Engineer · Data Engineer in Bandung, Indonesia",
   titleTemplate: "%s | Nirwan Rasyid Ridlo",
   description:
-    "Software Engineer, AI Engineer, and Data Scientist based in Bandung, Indonesia. Skilled in React, Next.js, Flutter, Nest.js, Python, and AI-assisted workflows.",
+    "Software Engineer, AI Engineer, and Data Engineer based in Bandung, Indonesia. Skilled in React, Next.js, Flutter, Nest.js, Python, and AI-assisted workflows.",
   keywords: [
     "Nirwan Rasyid Ridlo",
     "Software Engineer",
     "Full Stack Developer",
     "AI Engineer",
-    "Data Scientist",
+    "Data Engineer",
     "React Developer",
     "Next.js Developer",
     "Flutter Developer",
