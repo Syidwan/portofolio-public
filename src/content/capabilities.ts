@@ -28,7 +28,7 @@ export const CAPABILITIES = {
       id: "ai",
       icon: "pen-tool",
       title: "AI-Assisted Accelerated Delivery",
-      body: "Comfortable working in an AI-assisted development workflow (Claude Code, Gemini, Antigravity) to accelerate prototyping, test coverage, and production-ready implementation while maintaining high code quality.",
+      body: "Comfortable working in an AI-assisted development workflow (Claude Code, Gemini, and other AI agents) to accelerate prototyping, test coverage, and production-ready implementation while maintaining high code quality.",
     },
   ],
 } as const satisfies CapabilitiesContent;

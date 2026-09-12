@@ -25,7 +25,7 @@ export const FAQ = {
       id: "ai",
       question: "How do you integrate AI into your workflow?",
       answer:
-        "I use AI coding tools like Claude Code, Gemini, and Antigravity to accelerate prototyping, generate robust test scaffolding, and explore architectural patterns, while ensuring code quality, security, and manual verification.",
+        "I use AI coding tools and other AI agents (such as Claude Code and Gemini) to accelerate prototyping, generate robust test scaffolding, and explore architectural patterns, while ensuring code quality, security, and manual verification.",
     },
     {
       id: "design",

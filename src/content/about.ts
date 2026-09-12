@@ -23,7 +23,7 @@ export const ABOUT = {
       "My core tech stack centers around modern TypeScript ecosystems: React, Next.js, and Tailwind CSS on the web, Nest.js and Node.js for backend APIs, and Flutter for cross-platform mobile apps. I prioritize clean code structure, responsive design, and intuitive user experiences.",
     ],
     [
-      "I embrace an AI-assisted development workflow, utilizing tools like Claude Code, Gemini, and Antigravity to accelerate the software lifecycle — from initial prototyping to production-ready implementation, while maintaining architectural standards and thorough review.",
+      "I embrace an AI-assisted development workflow, utilizing tools like Claude Code, Gemini, and other AI agents to accelerate the software lifecycle — from initial prototyping to production-ready implementation, while maintaining architectural standards and thorough review.",
     ],
     [
       "When I'm not coding, you'll find me exploring emerging developer tooling, refining user interfaces, or contributing to projects on ",
