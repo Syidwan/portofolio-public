@@ -35,9 +35,23 @@ export function Work() {
           <li className="md:col-span-2">
             <ProjectCard project={flagship} sizes={FLAGSHIP_SIZES} />
           </li>
-          {rest.map((project) => (
-            <li key={project.id}>
-              <ProjectCard project={project} sizes={TWO_UP_SIZES} />
+          {rest.map((project, index) => (
+            <li
+              key={project.id}
+              className={
+                index === rest.length - 1 && rest.length % 2 === 1
+                  ? "md:col-span-2"
+                  : undefined
+              }
+            >
+              <ProjectCard
+                project={project}
+                sizes={
+                  index === rest.length - 1 && rest.length % 2 === 1
+                    ? FLAGSHIP_SIZES
+                    : TWO_UP_SIZES
+                }
+              />
             </li>
           ))}
         </ul>

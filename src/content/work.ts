@@ -1,3 +1,4 @@
+import defendIdShot from "@/assets/images/work/defend-id-asset.png";
 import lenInternShot from "@/assets/images/work/len-intern.png";
 import ostaceShot from "@/assets/images/work/ostace.png";
 import pawShot from "@/assets/images/work/paw.png";
@@ -62,6 +63,30 @@ export const WORK = {
         alt: "SiHemat mobile app overview showing live EV motorbike GPS tracking and fleet monitoring interface.",
       },
       linkLabel: "Visit mockup-intern-project.vercel.app",
+    },
+    {
+      id: "defend-id-asset",
+      name: "DEFEND ID — Asset Optimization Dashboard",
+      domain: "insight-loom-desk.vercel.app",
+      href: "https://insight-loom-desk.vercel.app",
+      featured: false,
+      description:
+        "Enterprise asset monitoring and optimization analytics dashboard for DEFEND ID holding companies (LEN, Pindad, Dahana, Dirgantara, PAL). Features dynamic valuation tracking, asset condition metrics, interactive drill-down charts, and multi-tenant entity filtering.",
+      role: "Software Engineer Intern — built interactive data visualizations, donut & pie analytics charts, and drill-down modal popups in the Portfolio Optimization Division.",
+      stack: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Recharts",
+        "Vite",
+        "Supabase",
+        "Radix UI",
+      ],
+      screenshot: {
+        src: defendIdShot,
+        alt: "DEFEND ID asset optimization dashboard displaying machine condition metrics, utilization rates, and financial asset valuations.",
+      },
+      linkLabel: "Visit insight-loom-desk.vercel.app",
     },
     {
       id: "paw-project",
