@@ -14,7 +14,7 @@ export const CTA = {
   },
   secondary: {
     label: "Download CV",
-    href: "https://drive.google.com/file/d/1fHypZtg2r1VU8wJ-wDZlZbuH4c51iRmd/view?usp=sharing",
+    href: "https://drive.google.com/drive/folders/1sxOxUyxQDF1P0D3LR1hvhyDdEoKgrt5q",
   },
   contactsLead: "You'll also find me here.",
   contacts: [

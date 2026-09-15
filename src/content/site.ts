@@ -47,7 +47,7 @@ export const SITE = {
   phoneHref: "tel:+6289527340406",
   cv: {
     label: "Download CV",
-    href: "https://drive.google.com/file/d/1fHypZtg2r1VU8wJ-wDZlZbuH4c51iRmd/view?usp=sharing",
+    href: "https://drive.google.com/drive/folders/1sxOxUyxQDF1P0D3LR1hvhyDdEoKgrt5q",
   },
   // One record read by both hero and footer, so they can never disagree.
   availability: { available: true, label: "Available for new opportunities" },
