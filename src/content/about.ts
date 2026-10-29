@@ -17,7 +17,7 @@ export const ABOUT = {
       "I'm a Software Engineer based in Bandung, Indonesia, with strong full stack and mobile application capabilities. I enjoy turning complex problem statements into functional, responsive, and visually appealing applications that solve real-world problems.",
     ],
     [
-      "Currently pursuing my Informatics Engineering degree at UIN Sunan Gunung Djati Bandung (maintaining a 3.76 GPA), my journey combines solid academic foundations with intensive practical experience — from engineering software prototypes at PT LEN Industri (Persero) to building counter management systems as a freelance software developer at RAphonecell Electronics.",
+      "An Informatics Engineering graduate from UIN Sunan Gunung Djati Bandung (Graduated September 30, 2026 · GPA: 3.77), my journey combines solid academic foundations with intensive practical experience — from engineering software prototypes at PT LEN Industri (Persero) to building counter management systems as a freelance software developer at RAphonecell Electronics.",
     ],
     [
       "My core tech stack centers around modern TypeScript ecosystems: React, Next.js, and Tailwind CSS on the web, Nest.js and Node.js for backend APIs, and Flutter for cross-platform mobile apps. I prioritize clean code structure, responsive design, and intuitive user experiences.",
@@ -38,7 +38,7 @@ export const ABOUT = {
   ],
   quickBitsLead: "A few quick bits:",
   quickBits: [
-    "Informatics Engineering student at UIN Sunan Gunung Djati (GPA: 3.76)",
+    "Informatics Engineering graduate from UIN Sunan Gunung Djati (Sep 30, 2026 · GPA: 3.77)",
     "Software Engineer Intern at PT LEN Industri (Persero)",
     "Passionate about responsive UI/UX and performant web architecture",
     "Based in Bandung, Indonesia (WIB)",
@@ -46,5 +46,5 @@ export const ABOUT = {
     "Comfortable in AI-assisted development workflows",
   ],
   closing:
-    "I'm always open to discussing new opportunities, internship roles, and software collaborations. Feel free to reach out!",
+    "I'm always open to discussing new opportunities, full-time roles, and software collaborations. Feel free to reach out!",
 } as const satisfies AboutContent;
