@@ -118,12 +118,12 @@ export const WORK = {
     },
     {
       id: "paw-project",
-      name: "PAW Web Application",
+      name: "PAW — Project Assistant Web",
       domain: "paw-kappa.vercel.app",
       href: "https://paw-kappa.vercel.app",
       featured: false,
       description:
-        "Web application development project for academic coursework at UIN Sunan Gunung Djati Bandung, implementing modern component design and structured layout.",
+        "Project Assistant Web (PAW) application built to streamline project assistance and task workflows, implementing modern modular component design and structured responsive layouts.",
       role: "Software Engineer — building modular UI components, page layouts, and interactive user flows.",
       stack: [
         "Next.js",
@@ -134,7 +134,7 @@ export const WORK = {
       ],
       screenshot: {
         src: pawShot,
-        alt: "Web application interface displaying structured data and interactive UI elements.",
+        alt: "Project Assistant Web interface displaying structured data and interactive UI elements.",
       },
       linkLabel: "Visit paw-kappa.vercel.app",
     },
