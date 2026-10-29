@@ -1,4 +1,5 @@
 import defendIdShot from "@/assets/images/work/defend-id-asset.png";
+import finbertShot from "@/assets/images/work/finbert-mlops.png";
 import lenInternShot from "@/assets/images/work/len-intern.png";
 import ostaceShot from "@/assets/images/work/ostace.png";
 import pawShot from "@/assets/images/work/paw.png";
@@ -13,7 +14,7 @@ export const WORK = {
     eyebrow: "Work",
     heading: "Featured Projects.",
     subhead:
-      "Selected web and mobile applications built across freelance, enterprise internship, and academic work.",
+      "Selected web, mobile, and MLOps applications built across freelance, enterprise internship, and academic research.",
   },
   // Ostace is first and featured: true, so the band renders it full-width.
   projects: [
@@ -39,6 +40,33 @@ export const WORK = {
         alt: "Point of sale dashboard showing transaction summary, inventory list, and management panel.",
       },
       linkLabel: "Visit ostace-pos.vercel.app",
+    },
+    {
+      id: "finbert-mlops",
+      name: "FinBERT MLOps — Financial News Sentiment & Drift Monitoring",
+      domain: "finbert-indonesia-news.streamlit.app",
+      href: "https://finbert-indonesia-news-fse64bps3jmca7lujlgubb.streamlit.app",
+      featured: false,
+      description:
+        "End-to-end MLOps pipeline and unified monitoring dashboard for Indonesian financial news sentiment analysis. Addresses quarterly data drift through automated PSI/KS-test monitoring and LoRA continual learning strategies (Sliding Window, Experience Replay, Cumulative LoRA, and UDA), paired with a fault-tolerant Indonesian-to-English financial translation pipeline.",
+      role: "AI & MLOps Engineer — architected the automated drift detection pipeline, LoRA continual retraining workflows, and multi-tab Streamlit monitoring dashboard integrated with Hugging Face Hub.",
+      stack: [
+        "Python",
+        "PyTorch",
+        "Hugging Face",
+        "FinBERT",
+        "PEFT / LoRA",
+        "Streamlit",
+        "ZenML",
+        "MLflow",
+        "Evidently AI",
+        "Plotly",
+      ],
+      screenshot: {
+        src: finbertShot,
+        alt: "Unified MLOps monitoring dashboard displaying model F1-score, PSI drift status, and quarterly performance snapshots.",
+      },
+      linkLabel: "Visit FinBERT MLOps Dashboard",
     },
     {
       id: "len-intern",

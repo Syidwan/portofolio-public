@@ -44,7 +44,7 @@ export const FOOTER = {
       links: [
         {
           label: "Download CV",
-          href: "https://drive.google.com/drive/folders/1sxOxUyxQDF1P0D3LR1hvhyDdEoKgrt5q",
+          href: "https://drive.google.com/file/d/1KpHigWSA5_2bsz9VYzbLvPuSipagYVld/view?usp=sharing",
         },
         {
           label: "Source code",
